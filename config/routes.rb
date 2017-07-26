@@ -11,18 +11,18 @@ Rails.application.routes.draw do
       post         'admin/reset_password', to: 'admins#reset_user_password'
       delete       'admin/users/:id',      to: 'admins#delete'
       get          'admin/users/:id',      to: 'admins#show'
-      
+
       post         'signup',               to: 'users#create'
       get          'users/:token',         to: 'users#show'
       post         'reset_password',       to: 'users#reset_password'
       post         'user_token',           to: 'user_token#create'
       post         'login',                to: 'user_token#create'
-      
+
       get          'patients/:patient_id/medications/:id', to: 'medications#show'
       get          'patients/:patient_id/medications/', to: 'medications#index'
       delete       'patients/:patient_id/medications/:id', to: 'medications#destroy'
       get          'patients/:patient_id/medications/filter/:filter', to: 'medications#filter'
-      
+
 
       get          'patients/:patient_id/images',   to: 'images#index'
       get          'patients/:patient_id/images/:id', to: 'images#show'
