@@ -6,6 +6,9 @@
 This app is designed to serve as an Electronic Medical Record System(EMR) for the [Alberta Helping Animals Society](http://www.ahas.ca/). The EMR will serve to replace their current paper record system, and will provide flexibility, organization, ease of use, and a consolidated repository of patient data to AHAS. The system will allow users to schedule appointments, store information about clients and patients and record information about visits between patients and vets. The individuals using the system will be the volunteers with the AHAS organization.
 
 ## Demo
+
+[Screenshots](http://imgur.com/a/4fahb)
+
 A [demo](https://ahasemrdemo.surge.sh/login) may be found at https://ahasemrdemo.surge.sh . As the system requires accounts to be added by an administrator, the following accounts are provided for demonstration purposes:
 ### User Account
 Username: user@fake.ca
