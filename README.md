@@ -10,8 +10,10 @@ A [demo](https://ahasemrdemo.surge.sh/login) may be found at https://ahasemrdemo
 ### User Account
 Username: user@fake.ca
 Password: password
+
+Please see the [User Manual](https://github.com/mack1070101/ahasServer/blob/master/docs/UserManual.pdf) for information on how to use the platform.
 ### Admin Account
 Username: admin@fake.ca
 Password: password
 
-
+Please see the [Administrator Manual](https://github.com/mack1070101/ahasServer/blob/master/docs/AhasAdminManual.pdf) for information on how to use the platform.
